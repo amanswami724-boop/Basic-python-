@@ -34,7 +34,7 @@ print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"City: {city}")
 ---
-## Q4. Explain any five commonly used string methods in Python with examples.
+## 4. Explain any five commonly used string methods in Python with examples.
 
 1. **`upper()`**: Converts all lowercase characters in a string into uppercase.
    ```python
@@ -61,7 +61,7 @@ Python
 text = "Machine Learning Basics"
 print(text.split())  # Output: ['Machine', 'Learning', 'Basics']
 
-Q7. What is Artificial Intelligence (AI)? Explain its importance and mention any four real-life applications of AI.
+##7. What is Artificial Intelligence (AI)? Explain its importance and mention any four real-life applications of AI.
 Definition: Artificial Intelligence (AI) is a domain of computer science focused on building intelligent machines capable of executing tasks that typically demand human intelligence, such as visual perception, decision-making, speech recognition, and language translation.
 
 Importance of AI:
@@ -80,7 +80,7 @@ Autonomous Vehicles: Self-driving cars utilize AI architectures coupled with com
 
 Healthcare & Diagnostics: AI models assist clinicians by parsing radiography reports to flag early-stage anomalies.
 
-Q8. Identify whether the following are examples of AI and explain why: ChatGPT, Google Maps route prediction, Calculator, Netflix recommendations, Voice assistants (Alexa/Siri)
+##8. Identify whether the following are examples of AI and explain why: ChatGPT, Google Maps route prediction, Calculator, Netflix recommendations, Voice assistants (Alexa/Siri)
 ChatGPT: Yes, it is AI. It relies on complex Large Language Models (LLMs) to process natural language input prompts and generate human-like text responses adaptively.
 
 Google Maps route prediction: Yes, it is AI. It incorporates predictive machine learning algorithms to evaluate real-time traffic information and dynamically calculate optimal route trajectories.
@@ -91,7 +91,7 @@ Netflix recommendations: Yes, it is AI. It employs collaborative filtering algor
 
 Voice assistants (Alexa/Siri): Yes, it is AI. They depend comprehensively on Natural Language Processing (NLP) models to map out audio waves and isolate linguistic commands.
 
-# Q3. Write a Python program that: Takes a user's name as input,
+# 3. Write a Python program that: Takes a user's name as input,
 # prints the name in uppercase, and prints total character length.
 # =====================================================================
 print("--- Question 3 ---")
