@@ -23,7 +23,7 @@ Python has several built-in data types. Here is an explanation of the four core 
 
 ---
 ## 2. Variables and Printing
-### Python Code
+
 ```python
 # Creating variables and storing details
 name = "Gargi"
