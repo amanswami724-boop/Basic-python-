@@ -34,44 +34,97 @@ print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"City: {city}")
 
+# Q4. Explain any five commonly used string methods in Python with examples.
 
-## Q3 print("\nQ3. Name Operations")
+1. **`upper()`**: Converts all lowercase characters in a string into uppercase.
+   ```python
+   text = "python"
+   print(text.upper())  # Output: PYTHON
+lower(): Converts all uppercase characters in a string into lowercase.
+
+Python
+text = "DATA"
+print(text.lower())  # Output: data
+strip(): Removes any leading and trailing whitespaces from a string.
+
+Python
+text = "  hello  "
+print(text.strip())  # Output: "hello"
+replace(old, new): Replaces a specified phrase or substring with another specified phrase.
+
+Python
+text = "I like Java"
+print(text.replace("Java", "Python"))  # Output: I like Python
+split(): Splits a string into a list of substrings based on a specified delimiter.
+
+Python
+text = "Machine Learning Basics"
+print(text.split())  # Output: ['Machine', 'Learning', 'Basics']
+
+Q7. What is Artificial Intelligence (AI)? Explain its importance and mention any four real-life applications of AI.
+Definition: Artificial Intelligence (AI) is a domain of computer science focused on building intelligent machines capable of executing tasks that typically demand human intelligence, such as visual perception, decision-making, speech recognition, and language translation.
+
+Importance of AI:
+Automation of Repetitive Tasks: It frees human workers from mundane, routine jobs, boosting productivity.
+
+Processing Big Data: AI handles massive datasets efficiently to extract useful insights swiftly.
+
+Error Reduction: AI systems operate continuously without fatigue, reducing human error margins in critical processes.
+
+Four Real-Life Applications:
+Virtual Voice Assistants: Systems like Alexa or Siri parse natural language commands to complete actions.
+
+E-Commerce Recommendation Engines: Algorithms deployed by platforms like Amazon or Netflix predict preferences.
+
+Autonomous Vehicles: Self-driving cars utilize AI architectures coupled with computer vision arrays to navigate traffic.
+
+Healthcare & Diagnostics: AI models assist clinicians by parsing radiography reports to flag early-stage anomalies.
+
+Q8. Identify whether the following are examples of AI and explain why: ChatGPT, Google Maps route prediction, Calculator, Netflix recommendations, Voice assistants (Alexa/Siri)
+ChatGPT: Yes, it is AI. It relies on complex Large Language Models (LLMs) to process natural language input prompts and generate human-like text responses adaptively.
+
+Google Maps route prediction: Yes, it is AI. It incorporates predictive machine learning algorithms to evaluate real-time traffic information and dynamically calculate optimal route trajectories.
+
+Calculator: No, it is not AI. It runs purely on hard-coded, deterministic mathematical logic rules. It possesses no capacity to adapt or learn through experience.
+
+Netflix recommendations: Yes, it is AI. It employs collaborative filtering algorithms to process specific viewing metrics and personalize recommended watch-lists.
+
+Voice assistants (Alexa/Siri): Yes, it is AI. They depend comprehensively on Natural Language Processing (NLP) models to map out audio waves and isolate linguistic commands.
+
+# Q3. Write a Python program that: Takes a user's name as input,
+# prints the name in uppercase, and prints total character length.
+# =====================================================================
+print("--- Question 3 ---")
 user_name = input("Enter your name: ")
-print("Uppercase:", user_name.upper())
-print("Total characters:", len(user_name))
+print(f"Uppercase Name: {user_name.upper()}")
+print(f"Total number of characters: {len(user_name)}")
+print("\n" + "="*40 + "\n")
 
-## Q4 print("\nQ4. String Methods")
-sample = "python programming"
-print(sample.upper())
-print(sample.lower())
-print(sample.title())
-print(sample.replace("python", "Python"))
-print(sample.count("m"))
 
-## Q5 print("\nQ5. Fruit List")
-fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"]
-print("Complete list:", fruits)
-print("First element:", fruits[0])
-print("Last element:", fruits[-1])
-print("Total items:", len(fruits))
+# =====================================================================
+# Q5. Create a list containing the names of five fruits.
+# - Print the complete list.
+# - Print the first and last element.
+# - Print the total number of items in the list.
+# =====================================================================
+print("--- Question 5 ---")
+fruits = ["Apple", "Banana", "Cherry", "Mango", "Orange"]
+print(f"Complete list: {fruits}")
+print(f"First element: {fruits[0]}")
+print(f"Last element: {fruits[-1]}")
+print(f"Total items in the list: {len(fruits)}")
+print("\n" + "="*40 + "\n")
 
-## Q6 print("\nQ6. List Operations")
+
+# =====================================================================
+# Q6. Write a Python program to:
+# - Create a list of numbers [10, 20, 30, 40, 50]
+# - Add 60 to the list.
+# - Remove 20 from the list.
+# - Print the updated list.
+# =====================================================================
+print("--- Question 6 ---")
 numbers = [10, 20, 30, 40, 50]
 numbers.append(60)
 numbers.remove(20)
-print("Updated list:", numbers)
-
-## Q7 print("\nQ7. Artificial Intelligence")
-print("AI is the simulation of human intelligence in machines.")
-print("Applications: ChatGPT, Self-driving cars, Medical diagnosis, Recommendation systems")
-
-## Q8 print("\nQ8. AI Examples")
-examples = {
-    "ChatGPT": "AI",
-    "Google Maps route prediction": "AI",
-    "Calculator": "Not AI",
-    "Netflix recommendations": "AI",
-    "Alexa/Siri": "AI"
-}
-for k, v in examples.items():
-    print(f"{k}: {v}")
+print(f"Updated list: {numbers}")
