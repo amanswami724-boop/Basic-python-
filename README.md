@@ -33,8 +33,8 @@ city = "Jaipur"
 print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"City: {city}")
-
-# Q4. Explain any five commonly used string methods in Python with examples.
+---
+## Q4. Explain any five commonly used string methods in Python with examples.
 
 1. **`upper()`**: Converts all lowercase characters in a string into uppercase.
    ```python
