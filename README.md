@@ -34,6 +34,17 @@ print(f"Name: {name}")
 print(f"Age: {age}")
 print(f"City: {city}")
 ---
+
+# 3. Write a Python program that: Takes a user's name as input,
+# prints the name in uppercase, and prints total character length.
+# =====================================================================
+print("--- Question 3 ---")
+user_name = input("Enter your name: ")
+print(f"Uppercase Name: {user_name.upper()}")
+print(f"Total number of characters: {len(user_name)}")
+print("\n" + "="*40 + "\n")
+
+
 ## 4. Explain any five commonly used string methods in Python with examples.
 
 1. **`upper()`**: Converts all lowercase characters in a string into uppercase.
@@ -60,6 +71,34 @@ split(): Splits a string into a list of substrings based on a specified delimite
 Python
 text = "Machine Learning Basics"
 print(text.split())  # Output: ['Machine', 'Learning', 'Basics']
+
+# =====================================================================
+# Q5. Create a list containing the names of five fruits.
+# - Print the complete list.
+# - Print the first and last element.
+# - Print the total number of items in the list.
+# =====================================================================
+print("--- Question 5 ---")
+fruits = ["Apple", "Banana", "Cherry", "Mango", "Orange"]
+print(f"Complete list: {fruits}")
+print(f"First element: {fruits[0]}")
+print(f"Last element: {fruits[-1]}")
+print(f"Total items in the list: {len(fruits)}")
+print("\n" + "="*40 + "\n")
+
+
+# =====================================================================
+# Q6. Write a Python program to:
+# - Create a list of numbers [10, 20, 30, 40, 50]
+# - Add 60 to the list.
+# - Remove 20 from the list.
+# - Print the updated list.
+# =====================================================================
+print("--- Question 6 ---")
+numbers = [10, 20, 30, 40, 50]
+numbers.append(60)
+numbers.remove(20)
+print(f"Updated list: {numbers}")
 
 ##7. What is Artificial Intelligence (AI)? Explain its importance and mention any four real-life applications of AI.
 Definition: Artificial Intelligence (AI) is a domain of computer science focused on building intelligent machines capable of executing tasks that typically demand human intelligence, such as visual perception, decision-making, speech recognition, and language translation.
@@ -91,40 +130,5 @@ Netflix recommendations: Yes, it is AI. It employs collaborative filtering algor
 
 Voice assistants (Alexa/Siri): Yes, it is AI. They depend comprehensively on Natural Language Processing (NLP) models to map out audio waves and isolate linguistic commands.
 
-# 3. Write a Python program that: Takes a user's name as input,
-# prints the name in uppercase, and prints total character length.
-# =====================================================================
-print("--- Question 3 ---")
-user_name = input("Enter your name: ")
-print(f"Uppercase Name: {user_name.upper()}")
-print(f"Total number of characters: {len(user_name)}")
-print("\n" + "="*40 + "\n")
 
 
-# =====================================================================
-# Q5. Create a list containing the names of five fruits.
-# - Print the complete list.
-# - Print the first and last element.
-# - Print the total number of items in the list.
-# =====================================================================
-print("--- Question 5 ---")
-fruits = ["Apple", "Banana", "Cherry", "Mango", "Orange"]
-print(f"Complete list: {fruits}")
-print(f"First element: {fruits[0]}")
-print(f"Last element: {fruits[-1]}")
-print(f"Total items in the list: {len(fruits)}")
-print("\n" + "="*40 + "\n")
-
-
-# =====================================================================
-# Q6. Write a Python program to:
-# - Create a list of numbers [10, 20, 30, 40, 50]
-# - Add 60 to the list.
-# - Remove 20 from the list.
-# - Print the updated list.
-# =====================================================================
-print("--- Question 6 ---")
-numbers = [10, 20, 30, 40, 50]
-numbers.append(60)
-numbers.remove(20)
-print(f"Updated list: {numbers}")
